@@ -1,0 +1,97 @@
+# Global options
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Xinshu Ma'
+theme = 'barks'
+copyright = "© 2024 by Xinshu Ma. <a href='/privacy'>Privacy policy</a>."
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+
+
+
+
+# Main menu
+[[menu.main]]
+    name = "About"
+    url  = "/about"
+    weight = 1
+[[menu.main]]
+    name = "Publications"
+    url  = "/publications"
+    weight = 2
+[[menu.main]]
+    name = "Others"
+    url  = "/other"
+    weight = 3
+
+
+
+# Customization options
+[params]
+
+    [params.head]
+        author = "Xinshu Ma"
+        custom_css = "/custom.css"
+        description = "Hi, I'm Xinshu"
+        keywords = ["network security", "cryptography", "academic", "University of Edinburgh", "doctorate"]
+
+    [params.navigation]
+        show_navigation = true
+
+    [params.footer]
+        show_footer = true
+
+    [params.typography]
+        title_font = "Poppins"
+       #title_font = "Merriweather"
+        body_font = "Source Sans Pro"
+
+    [params.colors]
+        theme_color = "#333333"
+        background_color = "#fcfbf9"
+        text_color = "#333333"
+        link_color = "#17442a"
+
+    [params.social]
+        [params.social.email]
+            name = "E-Mail"
+            class = "fas fa-envelope"
+            url = "mailto:maxinshusu@gmail.com"
+            weight = 1
+        [params.social.github]
+            name = "GitHub"
+            class = "fab fa-github"
+            url = "https://github.com/sus0pid"
+            weight = 2
+        #[params.social.google_scholar]
+        #    name = "Google Scholar"
+        #    class = "ai ai-google-scholar-square"
+        #    url = "https://scholar.google.com/citations?user=oZZHf5EAAAAJ&hl=en"
+        #    weight = 3
+        #[params.social.institution]
+        #    name = "My institution"
+        #    class = "fas fa-university"
+        #    url = "https://appliedcrypto.ethz.ch/people/person-detail.MjYyODM0.TGlzdC8zMzE4LC0yODgzMDgzMDc=.html"
+        #    weight = 5
+        #[params.social.linkedin]
+        #    name = "LinkedIn"
+        #    class = "fab fa-linkedin"
+        #    url = "https://linkedin.com/in/matilda-backendal"
+        #    weight = 6
+        [params.social.orcid]
+            name = "ORCID iD"
+            class = "fab fa-orcid"
+            url = "https://orcid.org/0000-0003-1370-4608"
+            weight = 7
+
+
+
+# Options for Markdown renderer
+[markup]
+
+    [markup.goldmark.renderer]
+        unsafe = true
+        xHTML = true
+
+    [markup.highlight]
+        style = 'dracula'

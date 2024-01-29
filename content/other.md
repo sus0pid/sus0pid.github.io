@@ -7,7 +7,7 @@ math: false
 But always, if we have faith a door will open for us, not perhaps one that we ourselves would ever have thought of, but one that will ultimately prove good for us.
 </q> -A.J. Cronin
 
-I think if we replace the word "life" with "PhD", it still makes perfect sence;)
+I say if we replace the word "life" with "PhD", it'll still make perfect sence;)
 
 
 <!-- Dealing with fearness is one of the most significant lessons that I need to learn. Fear of the unknow, failure, and rejection. -->

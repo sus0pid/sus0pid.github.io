@@ -5,7 +5,7 @@ hide_title: true
 
 # Peer-reviewed papers
 
-1. [**Designing Transport-Level Encryption for Datacenter Networks**](To appear)  
+1. **Designing Transport-Level Encryption for Datacenter Networks** (To appear)  
 *Tianyi Gao, Xinshu Ma, Suhas Narreddy, Eugenio Luo, Steven W.D. Chien, Michio Honda*  
 <sm>
 47th IEEE Symposium on Security and Privacy, (S&P 2026)

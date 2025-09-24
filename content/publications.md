@@ -5,6 +5,18 @@ hide_title: true
 
 # Peer-reviewed papers
 
+1. [**Designing Transport-Level Encryption for Datacenter Networks**](To appear)  
+*Tianyi Gao, Xinshu Ma, Suhas Narreddy, Eugenio Luo, Steven W.D. Chien, Michio Honda*  
+<sm>
+47th IEEE Symposium on Security and Privacy, (S&P 2026)
+</sm>
+
+1. [**Designing Transport-Level Encryption for Datacenter Networks**](https://dl.acm.org/doi/pdf/10.1145/3735358.3735389)  
+*Tianyi Gao, Xinshu Ma, Suhas Narreddy, Eugenio Luo, Steven W.D. Chien, Michio Honda*  
+<sm>
+Proceedings of the 9th Asia-Pacific Workshop on Networking, (APNet 2025)
+</sm>
+
 1. [**Stopping Silent Sneaks: Defending against Malicious Mixes with Topological Engineering**](/acsac_22_bowtie.pdf)  
 *Xinshu Ma, Florentin Rochet, Tariq Elahi*  
 <sm>

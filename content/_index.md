@@ -10,4 +10,4 @@ I am a doctoral student in School of Informatics at University of Edinburgh, adv
 
 My research interests lie in the datacenter/microservice encrypted transport layer security, anonymous communication, and blockchain. 
 
-Please feel free to [get in touch](mailto:maxinshusu@gmail.com)!
+Please feel free to [get in touch](mailto:x.ma@ed.ac.uk)!

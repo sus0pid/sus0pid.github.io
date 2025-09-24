@@ -1,8 +1,8 @@
 ---
 layout: landing_page
-image: xinshu_white.JPG
+image: xinshu_white.jpeg
 ---
-<!-- ![Test Image](/xinshu.JPG) -->
+<!-- ![Test Image](/xinshu_white.jpeg) -->
 
 Hi, I'm Xinshu,
 

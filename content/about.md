@@ -3,7 +3,7 @@ title: "About"
 math: false
 ---
 
-I am a PhD candidate at the University of Edinburgh, supervised by [Michio Honda](https://micchie.net). My research focuses on network security and privacy in datacenter communications, with current projects on transport-level encryption for datacenter networks  and post-quantum authentication architectures for high-performance environments.
+I am a PhD candidate at the University of Edinburgh, supervised by [Michio Honda](https://micchie.net). My research focuses on network security in datacenter communications, with current projects on transport-level encryption for datacenter networks and TLS authentication architectures for high-performance environments.
 
 Previously, I worked on security issues in anonymous communication systems with [Tariq Elahi](https://sites.google.com/view/tariqelahi/home).
 

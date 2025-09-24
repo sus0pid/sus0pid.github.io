@@ -3,7 +3,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Xinshu Ma'
 theme = 'barks'
-copyright = "© 2024 by Xinshu Ma. <a href='/privacy'>Privacy policy</a>."
+copyright = "© 2025 by Xinshu Ma. <a href='/privacy'>Privacy policy</a>."
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 
@@ -20,7 +20,7 @@ disableKinds = ["taxonomy"]
     url  = "/publications"
     weight = 2
 [[menu.main]]
-    name = "Others"
+    name = "CV"
     url  = "/other"
     weight = 3
 
@@ -67,7 +67,7 @@ disableKinds = ["taxonomy"]
             name = "Google Scholar"
             class = "ai ai-google-scholar-square"
             url = "https://scholar.google.com/citations?user=o3Y8k04AAAAJ&hl=en"
-            weight = 3
+            weight = 4
         #[params.social.institution]
         #    name = "My institution"
         #    class = "fas fa-university"
@@ -82,7 +82,7 @@ disableKinds = ["taxonomy"]
             name = "ORCID iD"
             class = "fab fa-orcid"
             url = "https://orcid.org/0000-0003-1370-4608"
-            weight = 7
+            weight = 3
 
 
 

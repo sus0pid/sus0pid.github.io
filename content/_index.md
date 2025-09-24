@@ -1,12 +1,12 @@
 ---
 layout: landing_page
-image: xinshu_perm.jpeg
+image: xinshu_perm_cut.jpeg
 ---
 <!-- ![Test Image](/xinshu_perm.jpeg) -->
 
 Hi, I'm Xinshu,
 
-I am a doctoral student in School of Informatics at University of Edinburgh, advised by Michio Honda.
+I am a doctoral student in School of Informatics at University of Edinburgh, advised by [Michio Honda](https://micchie.net).
 
 My research interests lie in the datacenter/microservice encrypted transport layer security, anonymous communication, and blockchain. 
 

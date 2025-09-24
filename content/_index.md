@@ -8,6 +8,6 @@ Hi, I'm Xinshu,
 
 I am a doctoral student in School of Informatics at University of Edinburgh, advised by [Michio Honda](https://micchie.net).
 
-My research interests lie in the datacenter/microservice encrypted transport layer security, anonymous communication, and blockchain. 
+My research interests lie in the datacenter/microservice networking security, anonymous communication, and blockchain. 
 
 Please feel free to [get in touch](mailto:maxinshusu@gmail.com)!

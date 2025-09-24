@@ -63,11 +63,11 @@ disableKinds = ["taxonomy"]
             class = "fab fa-github"
             url = "https://github.com/sus0pid"
             weight = 2
-        #[params.social.google_scholar]
-        #    name = "Google Scholar"
-        #    class = "ai ai-google-scholar-square"
-        #    url = "https://scholar.google.com/citations?user=oZZHf5EAAAAJ&hl=en"
-        #    weight = 3
+        [params.social.google_scholar]
+            name = "Google Scholar"
+            class = "ai ai-google-scholar-square"
+            url = "https://scholar.google.com/citations?user=o3Y8k04AAAAJ&hl=en"
+            weight = 3
         #[params.social.institution]
         #    name = "My institution"
         #    class = "fas fa-university"

@@ -1,6 +1,6 @@
 ---
 layout: landing_page
-image: xinshu.JPG
+image: xinshu_white.JPG
 ---
 <!-- ![Test Image](/xinshu.JPG) -->
 

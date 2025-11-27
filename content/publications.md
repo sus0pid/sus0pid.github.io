@@ -32,6 +32,13 @@ Volume 107: 101728, Aug 2020
 </sm>
 
 
+1. [**Blockchain-Enabled Privacy-Preserving Internet of Vehicles: Decentralized and Reputation-Based Network Architecture**](/NSSpaper.pdf)   
+*Xinshu Ma, Chunpeng Ge, Zhe Liu*  
+<sm>
+International Conference on Network and System Security (NSS 2019)
+pp. 336-351, Springer, Dec 2019.
+</sm>
+
 1. [**Exact algorithms for maximizing lifetime of WSNs using integer linear programming**](/WCNCpaper.pdf)  
 *Xinshu Ma, Xiaojun Zhu, Bing Chen*  
 <sm>

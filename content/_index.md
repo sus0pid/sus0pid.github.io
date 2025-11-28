@@ -4,7 +4,7 @@ image: xinshu_perm_cut.jpeg
 ---
 <!-- ![Test Image](/xinshu_perm.jpeg) -->
 
-Hi, I'm Xinshu,
+Hi, I'm Xinshu (pronounced Sin-shoo),
 
 I am a doctoral student in School of Informatics at University of Edinburgh, advised by [Michio Honda](https://micchie.net).
 

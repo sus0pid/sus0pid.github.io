@@ -6,9 +6,9 @@ hide_title: true
 # Peer-reviewed papers
 
 1. **Looma: A Low-Latency PQTLS Authentication Architecture for Cloud Applications** (To appear)  
-*Tianyi Gao, Xinshu Ma, Suhas Narreddy, Eugenio Luo, Steven W.D. Chien, Michio Honda*  
+*Xinshu Ma, Michio Honda*  
 <sm>
-47th IEEE Symposium on Security and Privacy, (S&P 2026)
+Network and Distributed System Security Symposium, (NDSS 2026)
 </sm>
 
 1. **Designing Transport-Level Encryption for Datacenter Networks** (To appear)  

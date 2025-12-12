@@ -31,7 +31,7 @@ pp. 132-145. ACM, Dec 2022
 </sm>
 
 1. [**A Semi-autonomous Distributed Blockchain-based Framework for UAVs Communication Systems**](https://www.sciencedirect.com/science/article/abs/pii/S1383762120300229)  
-*Chunpeng Ge, <strong>Xinshu Ma</strong>a, Zhe Liu*  
+*Chunpeng Ge, <strong>Xinshu Ma</strong>, Zhe Liu*  
 <sm>
 Journal of Systems Architecture (JSA 2020)  
 Volume 107: 101728, Aug 2020

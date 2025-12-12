@@ -7,7 +7,7 @@ math: false
 But always, if we have faith a door will open for us, not perhaps one that we ourselves would ever have thought of, but one that will ultimately prove good for us.
 </q> -A.J. Cronin
 
-Dealing with fearness is one of the most significant lessons that I need to learn. 
+<!-- Dealing with the fear is one of the most significant lessons that I need to learn.  -->
 <!--Fear of the unknow, failure, and rejection.-->
 
 
@@ -27,7 +27,7 @@ Here are some of the more memorable experiences.
 * **Mechanics**, BSc course at LTH, ....
 * During 2016 and 2018-2019, I was also a method supervisor and coach for other supplemental instructors at LTH. -->
 
-### CV
+##### CV
 Feel free to download my [CV](/Xinshu_CV.pdf)
 <!-- * Splash, UCSD
 * In the spring of 2014, I volunteered as an English teacher for 6 weeks in Luang Prabang, Laos, for Global Vision International.

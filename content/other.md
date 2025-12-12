@@ -3,7 +3,7 @@ title: "A journey of personal growth"
 math: false
 ---
 
-<q> Life is no straight and easy corridor along which we travel free and unhanpered, but a maze of passages, through which we must seek our way, lost and confused, now and again checked in a blind alley.
+<q> Life is no straight and easy corridor along which we travel free and unhampered, but a maze of passages, through which we must seek our way, lost and confused, now and again checked in a blind alley.
 But always, if we have faith a door will open for us, not perhaps one that we ourselves would ever have thought of, but one that will ultimately prove good for us.
 </q> -A.J. Cronin
 

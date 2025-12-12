@@ -27,10 +27,7 @@ Here are some of the more memorable experiences.
 * **Mechanics**, BSc course at LTH, ....
 * During 2016 and 2018-2019, I was also a method supervisor and coach for other supplemental instructors at LTH. -->
 
----
-title: "CV"
-math: false
----
+# CV
 Feel free to download my [CV](/Xinshu_CV.pdf)
 <!-- * Splash, UCSD
 * In the spring of 2014, I volunteered as an English teacher for 6 weeks in Luang Prabang, Laos, for Global Vision International.

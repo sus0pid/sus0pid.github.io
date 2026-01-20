@@ -8,7 +8,7 @@ hide_title: true
 1. [**Looma: A Low-Latency PQTLS Authentication Architecture for Cloud Applications**](/looma-ndss26.pdf)  
 *<strong>Xinshu Ma</strong>, Michio Honda*  
 <sm>
-Network and Distributed System Security Symposium, (NDSS 2026)
+33rd Network and Distributed System Security Symposium, (NDSS 2026)
 </sm>
 
 1. [**Designing Transport-Level Encryption for Datacenter Networks**](/smt-oakland26.pdf)  

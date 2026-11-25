@@ -1,0 +1,11 @@
+
+<header>
+    <a href="/" class="title">{{ .Site.Title | safeHTML }}</a>
+    {{ with .Site.Params.header.pronunciation }}<span class="pronunciation">{{ . }}</span>{{ end }}
+    <p class="site-links">
+        {{- range $i, $m := .Site.Menus.main -}}
+        {{- if $i }} · {{ end -}}
+        <a href="{{ $m.URL }}">{{ $m.Name }}</a>
+        {{- end -}}
+    </p>
+</header>

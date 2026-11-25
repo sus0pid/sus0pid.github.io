@@ -1,0 +1,35 @@
+# Compact lists shown below the "Work" section of the home page.
+earlier_papers:
+  - title: "A Semi-autonomous Distributed Blockchain-based Framework for UAVs Communication Systems"
+    authors: "Chunpeng Ge, Xinshu Ma, Zhe Liu"
+    venue: "Journal of Systems Architecture, 2020"
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1383762120300229
+  - title: "Blockchain-Enabled Privacy-Preserving Internet of Vehicles: Decentralized and Reputation-Based Network Architecture"
+    authors: "Xinshu Ma, Chunpeng Ge, Zhe Liu"
+    venue: "NSS 2019"
+    award: "Best Paper Award"
+    url: /NSSpaper.pdf
+  - title: "Exact algorithms for maximizing lifetime of WSNs using integer linear programming"
+    authors: "Xinshu Ma, Xiaojun Zhu, Bing Chen"
+    venue: "WCNC 2017"
+    url: /WCNCpaper.pdf
+  - title: "An efficient and secure ridge regression outsourcing scheme in wearable devices"
+    authors: "Xinshu Ma, Youwen Zhu, Xingxin Li"
+    venue: "Computers & Electrical Engineering, 2017"
+    url: "/An%20efficient%20and%20secure%20ridge%20regression%20outsourcing%20scheme%20in%20wearable%20devices.pdf"
+
+awards:
+  - what: "Distinguished Reviewer Award"
+    where: "ACM SoCC 2026"
+  - what: "IRTF Applied Networking Research Prize"
+    where: "2026, for the datacenter transport encryption paper"
+  - what: "Best Poster Award"
+    where: "REPHRAIN All-Hands Meeting 2022"
+  - what: "Best Paper Award"
+    where: "NSS 2019"
+
+service:
+  - what: "Program committee"
+    where: "ACM CCS 2026, ACM SoCC 2026"
+  - what: "Reviewer"
+    where: "IEEE TDSC, IEEE TIFS"

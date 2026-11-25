@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<section class="intro">
+    <div class="intro-text">
+        {{ .Content }}
+    </div>
+    <img class="intro-photo" src="/{{ .Params.image }}" alt="Photo of {{ .Site.Title }}" width="840" height="1002">
+</section>
+
+<section>
+    <h2 class="section-title">Work</h2>
+    {{ range .Site.Data.work.years }}
+    <div class="year-group">
+        <div class="year">{{ .year }}</div>
+        <ul class="work-list">
+            {{ range .items }}
+            <li class="work-item">
+                <div class="work-head">
+                    <span class="work-title">{{ .title }}</span>
+                    {{ with .venue }}<span class="tag">{{ . }}</span>{{ end }}
+                </div>
+                {{ if or .kind .award .links }}
+                <div class="work-meta">
+                    {{ with .kind }}<span class="kind">{{ . }}</span>{{ end }}
+                    {{ with .award }}<span class="award">{{ . }}</span>{{ end }}
+                    {{ with .links }}
+                    <span class="work-links">
+                        {{- range $i, $l := . -}}
+                        {{- if $i }} · {{ end -}}
+                        <a href="{{ $l.url }}">{{ $l.label }}</a>
+                        {{- end -}}
+                    </span>
+                    {{ end }}
+                </div>
+                {{ end }}
+                <p class="work-summary">{{ .summary }}</p>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</section>
+
+{{ with .Site.Data.more }}
+<section>
+    <h2 class="section-title">Earlier papers</h2>
+    <ul class="plain-list">
+        {{ range .earlier_papers }}
+        <li>
+            {{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+            <span class="muted">{{ .authors }}. {{ .venue }}.</span>
+            {{ with .award }}<span class="award">{{ . }}</span>{{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</section>
+
+<section>
+    <h2 class="section-title">Awards and service</h2>
+    <ul class="plain-list">
+        {{ range .awards }}
+        <li><span class="award">{{ .what }}</span> <span class="muted">{{ .where }}</span></li>
+        {{ end }}
+        {{ range .service }}
+        <li>{{ .what }} <span class="muted">{{ .where }}</span></li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,74 @@
+# Entries for the "Work" section of the home page, newest first.
+# Each item: title, venue (short tag), optional kind/award, links, summary.
+years:
+  - year: "2026"
+    items:
+      - title: "Post-quantum data residency"
+        venue: "Cloudflare Research"
+        kind: "internship"
+        summary: >-
+          Designing and building key distribution for regional services that
+          stays secure against quantum adversaries and is practical to operate.
+
+      - title: "Looma: low-latency post-quantum TLS authentication"
+        venue: "NDSS '26"
+        links:
+          - label: paper
+            url: /looma-ndss26.pdf
+          - label: slides
+            url: https://www.ndss-symposium.org/wp-content/uploads/f0074-ma-slides.pdf
+          - label: video
+            url: https://youtu.be/R0sk7R0UCM0
+          - label: code
+            url: https://github.com/uoenoplab/looma
+          - label: internet-draft
+            url: https://datatracker.ietf.org/doc/draft-ma-cfrg-looma/
+        summary: >-
+          Post-quantum signatures make mutual TLS handshakes slow. Looma moves
+          the expensive signing off the handshake path, so cloud services can
+          authenticate each other in microseconds.
+
+      - title: "Low-latency post-quantum authentication"
+        venue: "IETF 125"
+        kind: "talk at CFRG"
+        links:
+          - label: slides
+            url: https://csperkins.org/standards/ietf-125/2026-03-19-IETF125-CFRG-Looma.pdf
+          - label: internet-draft
+            url: https://datatracker.ietf.org/doc/draft-ma-cfrg-looma/
+        summary: >-
+          Bringing Looma to the Crypto Forum Research Group to ask whether an
+          online/offline signature design is useful in real deployments.
+
+      - title: "Transport-level encryption for datacenter networks"
+        venue: "S&P '26"
+        award: "IRTF Applied Networking Research Prize 2026"
+        links:
+          - label: paper
+            url: /smt-oakland26.pdf
+          - label: slides
+            url: https://micchie.net/files/smt-anrp.pdf
+          - label: code
+            url: https://github.com/uoenoplab/smt
+          - label: workshop version
+            url: https://dl.acm.org/doi/pdf/10.1145/3735358.3735389
+        summary: >-
+          TLS-grade encryption for message-based datacenter transports such as
+          Homa, safe against replay and still able to use the encryption
+          offload built into network cards.
+
+  - year: "2022"
+    items:
+      - title: "Bow-Tie: mixnets that hold up against malicious relays"
+        venue: "ACSAC '22"
+        links:
+          - label: paper
+            url: /acsac_22_bowtie.pdf
+          - label: arXiv
+            url: https://arxiv.org/abs/2206.00592
+          - label: code
+            url: https://github.com/sus0pid/BowTie-Artifacts
+        summary: >-
+          In an anonymity network, a user who keeps picking random relays
+          eventually picks an all-malicious path. Bow-Tie shapes the network
+          topology so that this takes far longer.

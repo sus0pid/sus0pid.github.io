@@ -14,7 +14,8 @@
         <div class="year">{{ .year }}</div>
         <ul class="work-list">
             {{ range .items }}
-            <li class="work-item">
+            <li class="work-item{{ if .thumb }} has-thumb{{ end }}">
+                <div class="work-body">
                 <div class="work-head">
                     <span class="work-title">{{ .title }}</span>
                     {{ with .venue }}<span class="tag">{{ . }}</span>{{ end }}
@@ -34,6 +35,13 @@
                 </div>
                 {{ end }}
                 <p class="work-summary">{{ .summary }}</p>
+                </div>
+                {{ if .thumb }}
+                <a class="work-thumb {{ .thumb_kind }}" href="{{ .thumb_url }}" aria-label="{{ .thumb_kind }}: {{ .title }}">
+                    <img src="{{ .thumb }}" alt="" loading="lazy" width="640" height="360">
+                    <span class="thumb-label">{{ if eq .thumb_kind "video" }}▶ watch{{ else }}{{ .thumb_kind }}{{ end }}</span>
+                </a>
+                {{ end }}
             </li>
             {{ end }}
         </ul>

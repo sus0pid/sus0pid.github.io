@@ -1,5 +1,6 @@
 # Entries for the "Work" section of the home page, newest first.
 # Each item: title, venue (short tag), optional kind/award, links, summary.
+# Optional thumb (image path), thumb_url (where it links) and thumb_kind (video|slides).
 years:
   - year: "2026"
     items:
@@ -12,6 +13,9 @@ years:
 
       - title: "Looma: low-latency post-quantum TLS authentication"
         venue: "NDSS '26"
+        thumb: /thumbs/looma-video.jpg
+        thumb_url: https://youtu.be/R0sk7R0UCM0
+        thumb_kind: video
         links:
           - label: paper
             url: /looma-ndss26.pdf
@@ -31,6 +35,9 @@ years:
       - title: "Low-latency post-quantum authentication"
         venue: "IETF 125"
         kind: "talk at CFRG"
+        thumb: /thumbs/ietf125-slides.jpg
+        thumb_url: https://csperkins.org/standards/ietf-125/2026-03-19-IETF125-CFRG-Looma.pdf
+        thumb_kind: slides
         links:
           - label: slides
             url: https://csperkins.org/standards/ietf-125/2026-03-19-IETF125-CFRG-Looma.pdf
@@ -43,6 +50,9 @@ years:
       - title: "Transport-level encryption for datacenter networks"
         venue: "S&P '26"
         award: "IRTF Applied Networking Research Prize 2026"
+        thumb: /thumbs/smt-slides.jpg
+        thumb_url: https://micchie.net/files/smt-anrp.pdf
+        thumb_kind: slides
         links:
           - label: paper
             url: /smt-oakland26.pdf

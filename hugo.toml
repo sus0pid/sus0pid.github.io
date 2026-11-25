@@ -45,9 +45,9 @@ disableKinds = ["taxonomy"]
         show_footer = true
 
     [params.typography]
-        title_font = "Poppins"
+        title_font = "IBM Plex Sans"
        #title_font = "Merriweather"
-        body_font = "Source Sans Pro"
+        body_font = "IBM Plex Sans"
 
     [params.colors]
         theme_color = "#333333"

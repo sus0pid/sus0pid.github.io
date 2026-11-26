@@ -21,12 +21,8 @@ earlier_papers:
 awards:
   - what: "Distinguished Reviewer Award"
     where: "ACM SoCC 2026"
-  - what: "IRTF Applied Networking Research Prize"
-    where: "2026, for the datacenter transport encryption paper"
   - what: "Best Poster Award"
     where: "REPHRAIN All-Hands Meeting 2022"
-  - what: "Best Paper Award"
-    where: "NSS 2019"
 
 service:
   - what: "Program committee"

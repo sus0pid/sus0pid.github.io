@@ -35,7 +35,8 @@ header .site-links a:hover { background: var(--accent-tint); }
 .intro-text { flex: 1; min-width: 0; font-size: 18px; line-height: 1.6; color: var(--ink); }
 .intro-text p:first-child { margin-top: 0; font-size: 27px; line-height: 1.35; font-weight: 700; letter-spacing: -0.01em; }
 .intro-text mark { background: linear-gradient(transparent 62%, var(--accent-tint) 62%); color: inherit; }
-main .intro-text a { color: var(--green); font-weight: 700; text-decoration-style: solid; text-decoration-color: var(--accent); }
+main .intro-text a { color: inherit; font-weight: inherit; text-decoration-style: solid; text-decoration-thickness: 1px; text-decoration-color: var(--rule); }
+main .intro-text a:hover { text-decoration-color: var(--green); }
 .intro-photo { width: 230px; height: auto; border-radius: 8px; flex-shrink: 0; box-shadow: 10px 10px 0 var(--green-tint); }
 
 /* Section headings */

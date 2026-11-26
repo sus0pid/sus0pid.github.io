@@ -10,22 +10,6 @@ disableKinds = ["taxonomy"]
 
 
 
-# Link row under the name
-[[menu.main]]
-    name = "github"
-    url  = "https://github.com/sus0pid"
-    weight = 1
-[[menu.main]]
-    name = "scholar"
-    url  = "https://scholar.google.com/citations?user=o3Y8k04AAAAJ&hl=en"
-    weight = 2
-[[menu.main]]
-    name = "cv"
-    url  = "/Xinshu_CV.pdf"
-    weight = 3
-
-
-
 # Customization options
 [params]
 
@@ -37,6 +21,19 @@ disableKinds = ["taxonomy"]
 
     [params.header]
         pronunciation = "pronounced Sin-shoo"
+        email = "maxinshusu@gmail.com"
+
+        # Link row under the name. Kept here rather than in [menu], because
+        # Hugo lowercases menu URLs and GitHub Pages paths are case-sensitive.
+        [[params.header.links]]
+            name = "github"
+            url  = "https://github.com/sus0pid"
+        [[params.header.links]]
+            name = "scholar"
+            url  = "https://scholar.google.com/citations?user=o3Y8k04AAAAJ&hl=en"
+        [[params.header.links]]
+            name = "cv"
+            url  = "/Xinshu_CV.pdf"
 
     [params.navigation]
         show_navigation = true

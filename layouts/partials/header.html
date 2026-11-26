@@ -3,9 +3,10 @@
     <a href="/" class="title">{{ .Site.Title | safeHTML }}</a>
     {{ with .Site.Params.header.pronunciation }}<span class="pronunciation">{{ . }}</span>{{ end }}
     <p class="site-links">
-        {{- range $i, $m := .Site.Menus.main -}}
+        {{- range $i, $l := .Site.Params.header.links -}}
         {{- if $i }} · {{ end -}}
-        <a href="{{ $m.URL }}">{{ $m.Name }}</a>
+        <a href="{{ $l.url }}">{{ $l.name }}</a>
         {{- end -}}
+        {{- with .Site.Params.header.email }} · <a href="mailto:{{ . }}">{{ . }}</a>{{ end -}}
     </p>
 </header>

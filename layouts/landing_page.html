@@ -9,11 +9,9 @@
 
 <section>
     <h2 class="section-title">Work</h2>
-    {{ range .Site.Data.work.years }}
-    <div class="year-group">
-        <div class="year">{{ .year }}</div>
+    <div class="work-group">
         <ul class="work-list">
-            {{ range .items }}
+            {{ range .Site.Data.work.items }}
             <li class="work-item{{ if .thumb }} has-thumb{{ end }}">
                 <div class="work-body">
                 <div class="work-head">
@@ -47,7 +45,6 @@
             {{ end }}
         </ul>
     </div>
-    {{ end }}
 </section>
 
 {{ with .Site.Data.more }}

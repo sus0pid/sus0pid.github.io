@@ -52,9 +52,8 @@ main .section-title {
   color: var(--green);
 }
 
-/* Work list, grouped by year with a green rule down the side */
-.year-group { border-left: 4px solid var(--green); padding-left: 20px; margin-bottom: 1.8em; }
-.year { font-family: var(--mono); font-size: 18px; font-weight: 700; color: var(--green); margin-bottom: 10px; }
+/* Work list with a green rule down the side */
+.work-group { border-left: 4px solid var(--green); padding-left: 20px; margin-bottom: 1.8em; }
 .work-list, .plain-list { list-style: none; padding-left: 0; }
 .work-item { margin-bottom: 0; padding: 18px 0; border-top: 1px solid var(--rule); }
 .work-item:first-child { border-top: 0; padding-top: 0; }

@@ -31,21 +31,6 @@ items:
       the expensive signing off the handshake path, so cloud services can
       authenticate each other in microseconds.
 
-  - title: "Low-latency post-quantum authentication"
-    venue: "IETF 125"
-    kind: "talk at CFRG"
-    thumb: /thumbs/ietf125-slides.jpg
-    thumb_url: https://csperkins.org/standards/ietf-125/2026-03-19-IETF125-CFRG-Looma.pdf
-    thumb_kind: slides
-    links:
-      - label: slides
-        url: https://csperkins.org/standards/ietf-125/2026-03-19-IETF125-CFRG-Looma.pdf
-      - label: internet-draft
-        url: https://datatracker.ietf.org/doc/draft-ma-cfrg-looma/
-    summary: >-
-      Bringing Looma to the Crypto Forum Research Group to ask whether an
-      online/offline signature design is useful in real deployments.
-
   - title: "Transport-level encryption for datacenter networks"
     venue: "S&P '26"
     authors: "Tianyi Gao, Xinshu Ma, Suhas Narreddy, Eugenio Luo, Steven W. D. Chien, Michio Honda"

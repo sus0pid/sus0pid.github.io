@@ -68,6 +68,7 @@ main .section-title {
   font-family: var(--mono); font-size: 12px; font-weight: 700; line-height: 1.2;
   padding: 4px 9px; border-radius: 4px; white-space: nowrap;
 }
+.work-authors { font-size: 15px; line-height: 1.5; margin-top: 4px; color: var(--muted); }
 .work-meta { font-size: 15px; line-height: 1.6; margin-top: 4px; color: var(--muted); }
 .work-meta .kind { font-style: italic; }
 .work-meta .kind, .work-meta .award { margin-right: 8px; }

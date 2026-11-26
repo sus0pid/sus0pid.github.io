@@ -1,5 +1,5 @@
 # Entries for the "Work" section of the home page, newest first.
-# Each item: title, venue (short tag), optional kind/award, links, summary.
+# Each item: title, venue (short tag), optional authors/kind/award, links, summary.
 # Optional thumb (image path), thumb_url (where it links) and thumb_kind (video|slides).
 years:
   - year: "2026"
@@ -13,6 +13,7 @@ years:
 
       - title: "Looma: low-latency post-quantum TLS authentication"
         venue: "NDSS '26"
+        authors: "Xinshu Ma, Michio Honda"
         thumb: /thumbs/looma-video.jpg
         thumb_url: https://youtu.be/R0sk7R0UCM0
         thumb_kind: video
@@ -49,6 +50,7 @@ years:
 
       - title: "Transport-level encryption for datacenter networks"
         venue: "S&P '26"
+        authors: "Tianyi Gao, Xinshu Ma, Suhas Narreddy, Eugenio Luo, Steven W. D. Chien, Michio Honda"
         award: "IRTF Applied Networking Research Prize 2026"
         thumb: /thumbs/smt-slides.jpg
         thumb_url: https://micchie.net/files/smt-anrp.pdf
@@ -71,6 +73,7 @@ years:
     items:
       - title: "Bow-Tie: mixnets that hold up against malicious relays"
         venue: "ACSAC '22"
+        authors: "Xinshu Ma, Florentin Rochet, Tariq Elahi"
         links:
           - label: paper
             url: /acsac_22_bowtie.pdf

@@ -20,6 +20,7 @@
                     <span class="work-title">{{ .title }}</span>
                     {{ with .venue }}<span class="tag">{{ . }}</span>{{ end }}
                 </div>
+                {{ with .authors }}<div class="work-authors">{{ . }}</div>{{ end }}
                 {{ if or .kind .award .links }}
                 <div class="work-meta">
                     {{ with .kind }}<span class="kind">{{ . }}</span>{{ end }}
